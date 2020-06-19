@@ -1,0 +1,28 @@
+.BuildAComponent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.InputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .BuildAComponent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+    }
+}
+
+* {
+    outline: 0px solid red;
+}
+
+label {
+    margin-right: 10px;
+}

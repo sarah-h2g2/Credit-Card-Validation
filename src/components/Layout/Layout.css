@@ -1,0 +1,13 @@
+.Main {
+	  margin-top: 20px;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+      text-align: center;
+  }
+}
