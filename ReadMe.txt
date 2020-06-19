@@ -1,1 +1,1 @@
-A simple app for validating visa and master card and american express
+A simple react.js app for validating visa, master card and american express
